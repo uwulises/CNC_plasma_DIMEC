@@ -7,3 +7,6 @@ Según una visita realizada al lugar donde se encuentra la estructura, fue posib
 A partir de mediciones realizadas en el lugar, se comienza la ingeniería inversa del modelo CAD para realizar la mayor cantidad de trabajo en casa y así evitar exposición innecesaria.\
 
 A partir del informe eléctrico se tiene una noción completa de las componentes involucradas y también están adjuntos los planos de cableado, lo que facilita el trabajo.
+
+# Software
+Para este caso, será utilizado LinuxCNC
