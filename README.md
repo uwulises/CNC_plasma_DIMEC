@@ -1,5 +1,6 @@
 # CNC_plasma_DIMEC
-Continuación del desarrollo de una cortadora de plasma para el taller mecánico del departamento de ingeniería mecánica.
+Continuación del desarrollo de una cortadora de plasma para el taller mecánico del departamento de ingeniería mecánica. 
+Diseño basado en https://www.precisionplasmallc.com/
 
 # Estado actual
 Según una visita realizada al lugar donde se encuentra la estructura, fue posible observar que faltan partes mecánicas y la parte eléctrica nunca se logró comprar o no se encuentra en el lugar.
