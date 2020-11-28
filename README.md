@@ -3,8 +3,7 @@ Continuación del desarrollo de una cortadora de plasma para el taller mecánico
 Diseño basado en https://www.precisionplasmallc.com/
 # Software
 Para este caso, será utilizado LinuxCNC, utilizando un computador de escritorio con puerto paralelo + optoacoplador
-# Estado actual (28-11-2020)
-Se realizan compras de componentes electrónicas faltantes, con esto será posible comenzar a probar el software.
+
 # To Do
 - Mecanizado de poleas <br>
 - Mecanizado de cremallera eje Y (Módulo 1.5) <br>
