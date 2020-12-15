@@ -27,12 +27,12 @@ net dout-01 <= motion.digital-out-01
 
 setp parport.0.pin-01-out-invert 1
 net spindle-on      => parport.0.pin-01-out
-net xstep           => parport.0.pin-02-out
-net xdir            => parport.0.pin-03-out
+net x1step           => parport.0.pin-02-out
+net x1dir            => parport.0.pin-03-out
 setp parport.0.pin-04-out-invert 1
-net xstep           => parport.0.pin-04-out
+net x2step           => parport.0.pin-04-out
 setp parport.0.pin-05-out-invert 1
-net xdir            => parport.0.pin-05-out
+net x2dir            => parport.0.pin-05-out
 net ystep           => parport.0.pin-06-out
 net ydir            => parport.0.pin-07-out
 net zstep           => parport.0.pin-08-out
@@ -51,10 +51,10 @@ setp stepgen.0.stepspace 1
 setp stepgen.0.dirhold 35000
 setp stepgen.0.dirsetup 35000
 setp stepgen.0.maxaccel [JOINT_0]STEPGEN_MAXACCEL
-net xpos-cmd joint.0.motor-pos-cmd => stepgen.0.position-cmd
-net xpos-fb stepgen.0.position-fb => joint.0.motor-pos-fb
-net xstep <= stepgen.0.step
-net xdir <= stepgen.0.dir
+net x1pos-cmd joint.0.motor-pos-cmd => stepgen.0.position-cmd
+net x1pos-fb stepgen.0.position-fb => joint.0.motor-pos-fb
+net x1step <= stepgen.0.step
+net x1dir <= stepgen.0.dir
 net xenable joint.0.amp-enable-out => stepgen.0.enable
 net both-x => joint.0.neg-lim-sw-in
 net both-x => joint.0.pos-lim-sw-in
@@ -65,10 +65,10 @@ setp stepgen.1.stepspace 1
 setp stepgen.1.dirhold 35000
 setp stepgen.1.dirsetup 35000
 setp stepgen.1.maxaccel [JOINT_1]STEPGEN_MAXACCEL
-net xpos-cmd joint.1.motor-pos-cmd => stepgen.1.position-cmd
-net xpos-fb stepgen.1.position-fb => joint.1.motor-pos-fb
-net xstep <= stepgen.1.step
-net xdir <= stepgen.1.dir
+net x2pos-cmd joint.1.motor-pos-cmd => stepgen.1.position-cmd
+net x2pos-fb stepgen.1.position-fb => joint.1.motor-pos-fb
+net x2step <= stepgen.1.step
+net x2dir <= stepgen.1.dir
 net xenable joint.1.amp-enable-out => stepgen.1.enable
 net both-x => joint.1.neg-lim-sw-in
 net both-x => joint.1.pos-lim-sw-in
