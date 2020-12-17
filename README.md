@@ -13,4 +13,4 @@ Para este caso, será utilizado LinuxCNC, utilizando un computador de escritorio
 - Timing Belt 136 XL 10mm width
 - Rack module 1.5 (X, Y axis)
 - Gear module 1.5 20 teeth
-
+- LJ12A3-4-Z/BX sensors (endstop)
