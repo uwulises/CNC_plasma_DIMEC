@@ -6,7 +6,7 @@ http://linuxcnc.org/docs/devel/html/plasma/plasmac-user-guide.html
 # Software
 Para este caso, será utilizado LinuxCNC, utilizando un computador de escritorio con puerto paralelo + optoacoplador
 # Hardware
-- Interface 5axis CNC 
+- Interface 5axis CNC HW-356
 - Nema 23 HS45-4204S 3Nm Stepper motors
 - Driver DM556
 - Timing Belt Pulley XL (14 & 44 teeth)
