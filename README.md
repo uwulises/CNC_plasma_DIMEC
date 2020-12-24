@@ -5,7 +5,7 @@ Diseño basado en https://www.precisionplasmallc.com/
 - http://linuxcnc.org/docs/devel/html/plasma/plasmac-user-guide.html
 # Software
 Para este caso, será utilizado LinuxCNC, utilizando un computador de escritorio con puerto paralelo + optoacoplador
-![Parallel_ports](https://github.com/uwulises/CNC_plasma_DIMEC/tree/master/Documentacion/pines_parallel_port.png?raw=true)
+<img src="tree/master/Documentacion/pines_parallel_port.png" width="500">
 
 # Hardware
 - Interface 5axis CNC HW-356
