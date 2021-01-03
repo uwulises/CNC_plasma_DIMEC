@@ -1,10 +1,11 @@
 # CNC_plasma_DIMEC
 Continuación del desarrollo de una cortadora de plasma para el taller mecánico del departamento de ingeniería mecánica. 
 Diseño basado en https://www.precisionplasmallc.com/
+- http://linuxcnc.org/2020/09/08/LinuxCNC-2.8.0/
 - http://linuxcnc.org/docs/2.8/html/plasma/plasmac-user-guide_es.html (spanish version)
 - http://linuxcnc.org/docs/devel/html/plasma/plasmac-user-guide.html
 # Software
-Para este caso, será utilizado LinuxCNC, utilizando un computador de escritorio con puerto paralelo + optoacoplador
+Para este caso, será utilizado LinuxCNC V2.8, utilizando un computador de escritorio con puerto paralelo + optoacoplador
 <img src="/Documentacion/pines_parallel_port.png" width="500">
 
 # Hardware
