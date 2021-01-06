@@ -1,5 +1,5 @@
 # CNC_plasma_DIMEC
-Continuación del desarrollo de una cortadora de plasma para el taller mecánico del departamento de ingeniería mecánica. 
+Continuación del desarrollo de una cortadora de plasma para el taller mecánico del departamento de Ingeniería Mecánica. 
 Diseño basado en https://www.precisionplasmallc.com/
 - http://linuxcnc.org/2020/09/08/LinuxCNC-2.8.0/
 - http://linuxcnc.org/docs/2.8/html/plasma/plasmac-user-guide_es.html (spanish version)
