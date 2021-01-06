@@ -35,25 +35,25 @@
   <property name="ladderhaltype" type="int" value="0"/>
   <property name="laddername" type="string" value="custom.clp"/>
   <property name="latency" type="float" value="20000.0"/>
-  <property name="machinename" type="string" value="Plasma_test"/>
+  <property name="machinename" type="string" value="Plasma_CNC"/>
   <property name="manualtoolchange" type="bool" value="False"/>
   <property name="md5sums" type="eval" value="[]"/>
   <property name="modbus" type="bool" value="False"/>
   <property name="number_pports" type="int" value="1"/>
   <property name="period" type="int" value="25000"/>
   <property name="pin1" type="string" value="unused-output"/>
-  <property name="pin10" type="string" value="estop-ext"/>
+  <property name="pin10" type="string" value="home-x"/>
   <property name="pin10inv" type="bool" value="True"/>
-  <property name="pin11" type="string" value="home-x"/>
+  <property name="pin11" type="string" value="home-y"/>
   <property name="pin11inv" type="bool" value="True"/>
-  <property name="pin12" type="string" value="unused-input"/>
-  <property name="pin12inv" type="bool" value="False"/>
+  <property name="pin12" type="string" value="estop-ext"/>
+  <property name="pin12inv" type="bool" value="True"/>
   <property name="pin13" type="string" value="unused-input"/>
-  <property name="pin13inv" type="bool" value="False"/>
+  <property name="pin13inv" type="bool" value="True"/>
   <property name="pin14" type="string" value="unused-output"/>
   <property name="pin14inv" type="bool" value="False"/>
-  <property name="pin15" type="string" value="unused-input"/>
-  <property name="pin15inv" type="bool" value="False"/>
+  <property name="pin15" type="string" value="home-z"/>
+  <property name="pin15inv" type="bool" value="True"/>
   <property name="pin16" type="string" value="unused-output"/>
   <property name="pin16inv" type="bool" value="False"/>
   <property name="pin17" type="string" value="xenable"/>
@@ -179,7 +179,7 @@
   <property name="vsteprev" type="int" value="200"/>
   <property name="xhomepos" type="float" value="0.0"/>
   <property name="xhomesw" type="float" value="0.0"/>
-  <property name="xhomevel" type="float" value="5.0"/>
+  <property name="xhomevel" type="float" value="-5.0"/>
   <property name="xlatchdir" type="int" value="0"/>
   <property name="xleadscrew" type="float" value="188.495559215"/>
   <property name="xmaxacc" type="float" value="750.0"/>
@@ -193,7 +193,7 @@
   <property name="xsteprev" type="float" value="200.0"/>
   <property name="yhomepos" type="float" value="0.0"/>
   <property name="yhomesw" type="float" value="0.0"/>
-  <property name="yhomevel" type="float" value="1.5"/>
+  <property name="yhomevel" type="float" value="-5.0"/>
   <property name="ylatchdir" type="int" value="0"/>
   <property name="yleadscrew" type="float" value="188.495559215"/>
   <property name="ymaxacc" type="float" value="750.0"/>
@@ -206,8 +206,8 @@
   <property name="yscale" type="float" value="26.6774024102"/>
   <property name="ysteprev" type="float" value="200.0"/>
   <property name="zhomepos" type="float" value="250.0"/>
-  <property name="zhomesw" type="float" value="0.0"/>
-  <property name="zhomevel" type="float" value="1.5"/>
+  <property name="zhomesw" type="float" value="250.0"/>
+  <property name="zhomevel" type="float" value="5.0"/>
   <property name="zlatchdir" type="int" value="0"/>
   <property name="zleadscrew" type="float" value="5.0"/>
   <property name="zmaxacc" type="float" value="750.0"/>
