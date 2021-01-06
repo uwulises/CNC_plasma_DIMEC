@@ -7,4 +7,4 @@
 
 # Cableado
 
-<img src="/Documentacion/abstract_wiring_drawing.png" width="500">
+<img src="/Documentacion/abstract_wiring_drawing.png" width="1000">
