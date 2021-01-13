@@ -1,16 +1,18 @@
 # CNC_plasma_DIMEC
-Continuación del desarrollo de una cortadora de plasma para el taller mecánico del departamento de Ingeniería Mecánica. 
-Diseño basado en https://www.precisionplasmallc.com/
+Continuation of the development of a plasma CNC cutter for the mechanical workshop of the Department of Mechanical Engineering.
+Design based on https://www.precisionplasmallc.com/
 - http://linuxcnc.org/2020/09/08/LinuxCNC-2.8.0/
 - http://linuxcnc.org/docs/2.8/html/plasma/plasmac-user-guide_es.html (spanish version)
 - http://linuxcnc.org/docs/devel/html/plasma/plasmac-user-guide.html
+
 # Software
-Para este caso, será utilizado LinuxCNC V2.8, utilizando un computador de escritorio con puerto paralelo + optoacoplador
+For this case, LinuxCNC V2.8 will be used, using a desktop computer with parallel port + optocoupler
+
 <img src="/Documentacion/pines_parallel_port.png" width="500">
 
 # Hardware
 - Interface 5axis CNC HW-356
-- Nema 23 HS45-4204S 3Nm Stepper motors
+- Nema 23 HS45-4204S 3Nm 3A Stepper motors
 - Driver DM556
 - Timing Belt Pulley XL (14 & 44 teeth)
 - Timing Belt 136 XL 10mm width
