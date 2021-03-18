@@ -19,3 +19,6 @@ For this case, LinuxCNC V2.8 will be used, using a desktop computer with paralle
 - Rack module 1.5 (X, Y axis)
 - Gear module 1.5 20 teeth
 - LJ12A3-4-Z/BX sensors (endstop)
+
+# Electronics
+<img src="/Documentacion/abstract_wiring_drawing.png" width="500">
