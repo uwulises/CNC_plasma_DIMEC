@@ -1,5 +1,5 @@
-# CNC_plasma_DIMEC
-Continuation of the development of a plasma CNC cutter for the mechanical workshop of the Department of Mechanical Engineering.
+# Plasma CNC (LinuxCNC), Mechanical Engineering Department, Universidad de Chile [Currently on hiatus due to COVID-19].
+Continuation of the development of a plasma CNC cutter.
 Design based on https://www.precisionplasmallc.com/
 - http://linuxcnc.org/2020/09/08/LinuxCNC-2.8.0/
 - http://linuxcnc.org/docs/2.8/html/plasma/plasmac-user-guide_es.html (spanish version)
@@ -11,7 +11,7 @@ For this case, LinuxCNC V2.8 will be used, using a desktop computer with paralle
 <img src="/Documentacion/pines_parallel_port.png" width="500">
 
 # Hardware
-- Interface 5axis CNC HW-356
+- Interface 5axis CNC
 - Nema 23 HS45-4204S 3Nm 3A Stepper motors
 - Driver DM556
 - Timing Belt Pulley XL (14 & 44 teeth)
